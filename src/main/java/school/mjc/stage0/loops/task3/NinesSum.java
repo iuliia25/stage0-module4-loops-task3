@@ -4,7 +4,7 @@ public class NinesSum {
     public void calculateSum(int lengthOfLastNumber) {
         int sum = 0;
         int term = 0;
-        for (int i = 0; i <= lengthOfLastNumber; i ++) {
+        for (int i = 1; i <= lengthOfLastNumber; i ++) {
             term = (term * 10) + 9;
             sum += term;
         }

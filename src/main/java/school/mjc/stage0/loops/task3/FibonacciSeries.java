@@ -7,7 +7,7 @@ public class FibonacciSeries {
         System.out.println(a);
         System.out.println(b);
         int c;
-        for (int i = 2; i <= lastFibonacci; i ++) {
+        for (int i = 3; i <= lastFibonacci; i ++) {
             c = a + b;
             a = b;
             b = c;
